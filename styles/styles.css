@@ -11,11 +11,57 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/*---------- утилиты -------------*/
+
 .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-post {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 /*---------- лого -------------*/
+
+.logo-header {
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-right: 93px;
+  text-align: left;
+}
 
 .logo-header,
 .logo-footer {
@@ -37,7 +83,26 @@ body {
 }
 
 /*---------- site nav -------------*/
+.main-nav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.site-nav {
+  display: flex;
+  margin-right: 331px;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav .link {
+  display: block;
+  margin-top: 32px;
+  margin-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -57,6 +122,16 @@ body {
 }
 
 /*---------- site contacts -------------*/
+
+.site-contacts {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.site-contacts .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-contacts .link-header {
   font-weight: 500;
   font-size: 14px;
@@ -73,16 +148,27 @@ body {
 
 /*---------- Hero -------------*/
 
+.hero {
+  text-align: center;
+}
+
 .hero-title {
+  outline: 1px solid red;
+  margin-top: 0;
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  color: black;
 }
 
 .button-hero {
+  margin-bottom: 200px;
+  border-radius: 4px;
   font-family: inherit;
   font-weight: 700;
   line-height: 1.88;
@@ -95,7 +181,24 @@ body {
 
 /*---------- features -------------*/
 
+.features-list {
+  display: flex;
+}
+
+.features-list .item {
+  width: 270px;
+}
+
+.features-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features-list-title {
+  padding-bottom: 10px;
+}
+
 .section-post {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.14;
@@ -134,7 +237,31 @@ body {
 
 /*---------- cards works -------------*/
 
-/* team */
+.cards {
+  display: flex;
+}
+
+.cards .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/*---------- team -------------*/
+.team-list {
+  display: flex;
+  text-align: center;
+}
+
+.team-list .item img {
+  margin-bottom: 30px;
+}
+
+.team-list-title {
+  margin-bottom: 10px;
+}
+
+.team-list .item:not(:last-child) {
+  margin-right: 30px;
+
 .team-list-title {
   font-size: 16px;
   font-weight: 500;
@@ -151,6 +278,11 @@ body {
 }
 
 /*---------- footer -------------*/
+
+.page-footer {
+  text-align: left;
+  font-style: normal;
+}
 
 .studio-white {
   color: #ffffff;
