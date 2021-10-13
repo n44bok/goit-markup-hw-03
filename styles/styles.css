@@ -257,12 +257,6 @@ section {
 
 .team-list-title {
   margin-bottom: 10px;
-}
-
-.team-list .item:not(:last-child) {
-  margin-right: 30px;
-
-.team-list-title {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.14;
@@ -277,12 +271,11 @@ section {
   color: var(--secondary-text-color);
 }
 
-/*---------- footer -------------*/
+.team-list .item:not(:last-child) {
+  margin-right: 30px;
 
-.page-footer {
-  text-align: left;
-  font-style: normal;
-}
+
+/*---------- footer -------------*/
 
 .studio-white {
   color: #ffffff;
@@ -298,8 +291,13 @@ section {
   color: #ffffff;
 }
 
-.footer-link-mail,
-.footer-link-tel {
+.studio-white {
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+}
+
+.footer-link-mail {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -317,6 +315,7 @@ section {
 .footer-link-tel:focus {
   color: var(--accent-color);
 }
+
 
 /*---------- filter -------------*/
 
