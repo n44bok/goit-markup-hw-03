@@ -277,12 +277,6 @@ section {
 
 /*---------- footer -------------*/
 
-.studio-white {
-  color: #ffffff;
-  font-family: Raleway, sans-serif;
-  text-decoration: none;
-}
-
 .city {
   font-size: 14px;
   line-height: 1.71;
@@ -318,6 +312,10 @@ section {
 
 
 /*---------- filter -------------*/
+
+.filter-title-list {
+  display: flex;
+}
 
 .filter-button:hover,
 .filter-button:focus {
