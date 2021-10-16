@@ -287,7 +287,7 @@ section {
 
 /*---------- footer -------------*/
 
-.main-footer {
+footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -383,10 +383,9 @@ section {
 }
 
 .works-list .item {
-  flex-basis: calc((100% - 90px) / 3);
+  width: calc((100% - 90px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #eeeeee;
 }
 
 .works-list .item:nth-last-child(-n + 3) {
@@ -414,5 +413,9 @@ section {
 }
 
 .works-title-text {
+  width: 370px;
   padding: 20px 24px 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
